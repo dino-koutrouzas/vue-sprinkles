@@ -1,0 +1,19 @@
+<div id="welcome-index" class="container">
+	
+	<b-tabs>
+		<!-- Hard-coded tab -->
+		<b-tab name="Hard-coded tab" :selected="true">
+			<h6>Hard-coded content</h6>
+		</b-tab>
+
+		<!-- Content from a helper -->
+		<% welcome_tabs.each do |name, content| %>
+			<b-tab name="<%= name %>">
+				<h6><%= content %></h6>
+			</b-tab>
+		<% end %>
+	</b-tabs>
+
+</div>
+
+<%= javascript_pack_tag 'welcome/index' %>
