@@ -35,7 +35,7 @@ Neither of these examples involve asynchronous requests to the server or renderi
 Turbolinks has been removed for simplicity, but it can be used with Vue. Reference this Go Rails [episode](https://gorails.com/episodes/how-to-use-vuejs-and-turbolinks-together) for how you can use Vue and Turbolinks together.
 
 ## Behaviour
-This is a simple implementation of Tabbed content, a type of interactive functionality we're all familiar with. Watch the [laracasts episode]((https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11)) for a breakdown on how this functionality is applied from scratch here, using Vue.
+This is a simple implementation of Tabbed content, a type of interactive functionality we're all familiar with. Watch the [laracasts episode](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11) for a breakdown on how this functionality is applied from scratch here, using Vue.
 
 Although there is a bit of set-up involed, it could pay off once your UI needs to deal with more complex interactions, and this is even shown by how simple it is to apply the final step of conditionally showing and hiding the relevant tab content.
 
