@@ -37,7 +37,7 @@ Turbolinks has been removed for simplicity, but it can be used with Vue. Referen
 ## Behaviour
 This is a simple implementation of Tabbed content, a type of interactive functionality we're all familiar with. Watch the [laracasts episode]((https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11)) for a breakdown on how this functionality is applied from scratch here, using Vue.
 
-Although there is a bit more set-up involved compared to simply using jQuery, it can pay off once your UI grows to deeal with more complex interactions, and this is even shown by how simple it is to apply the final step of conditionally showing and hiding the relevant tab content.
+Although there is a bit of set-up involed, it could pay off once your UI needs to deal with more complex interactions, and this is even shown by how simple it is to apply the final step of conditionally showing and hiding the relevant tab content.
 
 ##### JavaScript Sprinkles
 Since the raw data is rendered on the server, before the Vue instance is [mounted](https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram) on the client side, a fade-in has been applied in vanilla JavaScript & CSS in `assets/javascripts/application.js` and `assets/stylesheets/application.css` to remove any unwanted flickering when the page loads.
