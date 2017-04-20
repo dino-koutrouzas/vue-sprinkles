@@ -9,7 +9,7 @@ Be sure to reference [https://github.com/rails/webpacker](https://github.com/rai
 `bundle`, `bin/webpack-dev-server`, then `bin/rails server` in a separate terminal window.
 
 ## Description
-This example uses the Tabs component from [Bulma](https://github.com/jgthms/bulma), and its implementation is based on the exercise in the following Laracasts [epsidoe](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11).
+This example uses the Tabs component from [Bulma](https://github.com/jgthms/bulma), and its implementation is based on the exercise in the following Laracasts [episode](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11).
 
 If you're new to Vue I highly reccomend working through this series, along with the official documentation on [vuejs.org](https://vuejs.org).
 
