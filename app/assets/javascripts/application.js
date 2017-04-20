@@ -12,3 +12,10 @@
 //
 //= require rails-ujs
 //= require_tree .
+
+window.onload = function(){
+	var vueElems = document.getElementsByClassName('vue-container')
+	for (i = 0; i < vueElems.length; i++) { 
+  	vueElems[i].className += " vue-fade-in"
+	}
+}

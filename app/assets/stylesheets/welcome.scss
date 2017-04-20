@@ -4,3 +4,11 @@
 body {
 	padding-top: 40px;
 }
+
+.vue-container {
+	opacity: 0;
+}
+.vue-fade-in {
+	opacity: 1;
+	transition: 1s;
+}
