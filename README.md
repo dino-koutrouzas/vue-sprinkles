@@ -35,17 +35,17 @@ Neither of these examples involve asynchronous requests to the server or renderi
 Turbolinks has been removed for simplicity, but it can be used with Vue. Reference this Go Rails [episode](https://gorails.com/episodes/how-to-use-vuejs-and-turbolinks-together) for how you can use Vue and Turbolinks together.
 
 ## Behaviour
-This is a simple implementation of Tabbed content, a type of interactive functionality we're all familiar with. Watch the [laracasts episode](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11) for a breakdown on how this functionality is applied from scratch here, using Vue.
+This is a simple implementation of Tabbed content, a type of interactive functionality we're all familiar with. Watch the [Laracasts episode](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/11) for a breakdown on how this functionality is applied from scratch here, using Vue.
 
-Although there is a bit of set-up involed, it could pay off once your UI needs to deal with more complex interactions, and this is even shown by how simple it is to apply the final step of showing and hiding the relevant tab content.
+Although there is a bit more initial set-up involed in using Vue compared with jQuery, it could pay off when your site/app needs to deal with more complex interactions. This is even demonstrated here, by how simple it is to apply the final step of showing and hiding the relevant tab content.
 
 ##### JavaScript Sprinkles
 Since the raw data is rendered on the server, before the Vue instance is [mounted](https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram) on the client side, a fade-in has been applied in vanilla JavaScript & CSS in `assets/javascripts/application.js` and `assets/stylesheets/application.css` to remove any unwanted flickering when the page loads.
 
 ### Troubleshooting
-It's worth reading the documentation and requirements for using [Webpacker](https://github.com/rails/webpacker) and reference any issues there which might relate to using Webpacker on your system.
+It's worth reading the documentation and requirements for using [Webpacker](https://github.com/rails/webpacker) and check any issues there which might relate to using Webpacker on your system.
 
 #### Improvements
 Improvements and suggestions are welcome.
 
-This project will be soon be updated to also show how you can use Vue to retrieve data from your Rails asynchronosly, as well as other use cases and implementation of Vue in Rails with Webpacker.
+This project will be soon be updated to additionally show how you can use Vue to retrieve data from your Rails asynchronously, as well as other use cases and implementations of Vue in Rails, with Webpacker.
