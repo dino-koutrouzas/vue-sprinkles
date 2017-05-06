@@ -1,7 +1,7 @@
 # Vue on Rails with Webpacker
 A simple demonstration of one way you could make us of [Vue.js](https://github.com/vuejs/vue) components a Rails 5.1 app, using the new [Webpacker](https://github.com/rails/webpacker) gem.
 
-[https://rails-vue.herokuapp.com](View Live Demo)
+[View Live Demo](https://rails-vue.herokuapp.com)
 
 The idea is to make it as simple as possible to start adding Vue to Rails projects, without completely abandonning the traditional way of authoring views.
 
